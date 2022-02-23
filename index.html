@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Awesome Books</title>
+  </head>
+  <body onload=displayTime();>
+    <nav class="nav">
+      <h1 class="nav-title">Awesome Books</h1>
+      <ul>
+        <li class=""><a href="#" id="book-list">List</a></li>
+        <li class=""><a href="#" id="add-book">Add new</a></li>
+        <li class="nope"><a href="#" id="contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="date-area" id="date-area">
+    </div>
+    <section class="hide section1">
+      <h2>All Awesome Books</h2>
+      <div class="books-wrapper" id="book-banner"></div>
+    </section>
+    <section class="section2">
+      <h3>Add a New Book</h3>
+      <form class="input-wrapper" id="form-banner">
+        <input
+          type="text"
+          placeholder="Title"
+          id="title"
+          name="title"
+          required
+        />
+        <input
+          type="text"
+          placeholder="Author"
+          id="author"
+          name="author"
+          required
+        />
+        <div class="event">
+        <button type="submit" class="add-btn">Add</button>
+      </div>
+      </form>
+    </section>
+
+    <section class="hide section3">
+      <h4>Contact Information</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, enim!.</p>
+      <ul>
+        <li>Keza Linda</li>
+        <li>
+          <ul>
+            <li>Mail:Keza@awesomebooks.com</li>
+            <li>Number: Office </li>
+            <li>Address: Paris, France.</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <footer class="footer">
+      <p>&copy;Keza 2022 All Right Reserved!</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
