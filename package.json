@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/keza681/Awesome-book-es6-and-modules/issues"
   },
-  "homepage": "https://github.com/keza681/Awesome-book-es6-and-modules#readme"
+  "homepage": "https://github.com/keza681/Awesome-book-es6-and-modules#readme",
+  "dependencies": {
+    "luxon": "^2.3.0"
+  }
 }
