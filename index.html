@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="index.css">
+
+  <title>Awesome Books ES6</title>
+</head>
+<body>
+  <nav class="nav">
+    <h1 class="nav-title">Awesome Books</h1>
+    <ul>
+      <li class=""><a href="#" id="book-list">List</a></li>
+      <li class=""><a href="#" id="add-book">Add new</a></li>
+      <li class="nope"><a href="#" id="contact">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="date-area" id="date-area">
+  </div>
+  <section class="hide section1">
+    <h2>All Awesome Books</h2>
+    <div class="books-wrapper" id="book-banner"></div>
+  </section>
+  <section class="section2">
+    <h2>Add a New Book</h2>
+    <form class="input-wrapper" id="form-banner">
+      <input
+        type="text"
+        placeholder="Title"
+        id="title"
+        name="title"
+        required
+      />
+      <input
+        type="text"
+        placeholder="Author"
+        id="author"
+        name="author"
+        required
+      />
+      <button type="submit" class="add-btn">Add</button>
+    </form>
+  </section>
+
+  <section class="hide section3">
+    <h2>Contact Information</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consecte
+      tur porro tempora facere asperiores illo inventore libero sunt repell
+      endus laboriosam architecto?</p>
+    <ul>
+      <li>linda keza </li>
+      <li>
+        <ul>
+          <li>Email: linda@awesomebooks.com</li>
+          <li>Number: Office</li>
+          <li>Address: kinshasa, Congo.</li>
+        </ul>
+      </li>
+    </ul>
+    
+  </section>
+
+  <footer class="footer">
+    <p>&copy;Linda 2022 All Right Reserved!</p>
+  </footer>  
+  <script src="./index.js" type="module"></script>
+</body>
+</html>
